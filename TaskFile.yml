@@ -1,0 +1,23 @@
+version: 3
+
+tasks:
+  up:
+    desc: "Run the application"
+    summary: |
+      This task will run the application
+    cmds:
+      - ./app/up.sh
+
+  down:
+    desc: "Down the application"
+    summary: |
+      This task will down the application
+    cmds:
+      - ./app/down.sh
+
+  rebuild_images:
+    desc: "Rebuild the images"
+    summary: |
+      This task will rebuild the images
+    cmds:
+      - ./app/rebuild_images.sh
